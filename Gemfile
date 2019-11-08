@@ -35,7 +35,7 @@ group :development, :test do
   gem 'rspec-rails', git: 'https://github.com/rspec/rspec-rails', branch: 'v4.0.0.beta3'
   gem 'faker', '~> 1.6'
   gem 'factory_bot_rails'
-  gem 'shoulda-matchers', '~> 3.0'
+  gem 'shoulda-matchers'
   gem 'rails-controller-testing'
 end
 
